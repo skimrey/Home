@@ -1,0 +1,187 @@
+* {
+    font-family: Raleway, serif;
+    
+}
+
+.header {
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 1.5em;
+    text-decoration: none;
+    
+}
+
+.indexbody {
+    background: url(static/a2956946643_16\ \(1\).jpg) no-repeat center fixed;
+    height: 100%;
+    background-size: 100%;
+    background-position-y: top;
+    background-attachment: scroll;
+    text-align: center;
+}
+
+
+.b1 {
+    background: black;
+}
+
+.b2{
+    background: transparent;
+    border-color: white;
+}
+
+.header-button {
+    width: 300px;
+    font-size: 0.4em;
+}
+
+.one {
+    z-index: 1;
+    color: black;
+    position: relative;
+    font-size: 6em;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 21%;
+    text-align: center;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: 0px;
+}
+
+
+
+#gallery {
+    text-align: center;
+    margin-top: 500px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-gap: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box {
+    max-width: 350px;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.grid-image {
+    object-fit: cover;
+    max-width: 300px;
+    height: 300px;
+}
+
+.wrap-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+#main {
+    border: 3px solid gray;
+    border-radius: 3px;
+    padding: 10px;
+    width: 310px;
+    justify-content: center;
+    margin-top: 103px;
+    
+}
+
+form {
+    display: inline-block;
+}
+
+.email {
+    margin-left: -27%;
+}
+
+.message {
+    margin-left: -25.5%;
+}
+
+#message-input {
+    height: 250px;
+    width: 30%;
+}
+
+#email {
+    width: 30%;
+}
+
+#continue {
+    width: 300px;
+    height: 50px;
+    color: white;
+    background-color: purple;
+    border: 0px;
+}
+
+#subject {
+    width: 30%;
+}
+
+.subject {
+    margin-left: -25.75%;
+}
+
+#guiboard {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.guiboard-container {
+    display: grid;
+    grid-template-columns: 50% 100%;
+    padding-bottom: 20px;
+    justify-content: start;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.guiboard-text {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+video {
+    margin-left: -10%;
+}
+
+.guifooter {
+    padding: 10px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: black;
+}
+
+.indexfooter {
+    padding: 10px;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    background: black;
+}
